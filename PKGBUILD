@@ -1,7 +1,7 @@
 pkgname=haroopad
 pkgver=0.12.2
 pkgrel=1
-pkgdesc="A markdown enabled document processor"
+pkgdesc="Haroopad is a markdown enabled document processor for creating web-friendly documents"
 arch=('x86_64')
 url="http://pad.haroopress.com/"
 license=('unknown')
