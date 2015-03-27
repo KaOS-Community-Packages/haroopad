@@ -9,7 +9,7 @@ depends=('xdg-utils'
          'desktop-file-utils'
          'gconf'
          'nodejs'
-         'python'
+         'python3'
          'alsa-lib'
          'gtk2'
          'nss')
