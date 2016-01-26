@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=haroopad
-Version=0.12.2
+Version=0.13.1
 Exec=haroopad %F
 Comment=The Next Document processor based on Markdown
 Icon=haroopad
