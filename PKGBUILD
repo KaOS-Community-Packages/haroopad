@@ -16,11 +16,11 @@ depends=('xdg-utils'
 options=('!strip')
 install=${pkgname}.install
 
-source=("x-markdown.xml")
-source_x86_64=("https://bitbucket.org/rhiokim/haroopad-download/downloads/${pkgname}-v${pkgver}-x64.deb")
+source=("x-markdown.xml"
+        "https://bitbucket.org/rhiokim/haroopad-download/downloads/${pkgname}-v${pkgver}-x64.deb")
 
-sha256sums=('8261b526007db35c8691b3b6bf79cf40639a5e53fa81f1dd1fa4ea1cf5c440dd')
-sha256sums_x86_64=('ff04f500d6809491d1154bccc8c1ee1f02139a845290774d49ddd6f4c042832a')
+sha256sums=('8261b526007db35c8691b3b6bf79cf40639a5e53fa81f1dd1fa4ea1cf5c440dd'
+            'ff04f500d6809491d1154bccc8c1ee1f02139a845290774d49ddd6f4c042832a')
 
 build() {
 	cd "${srcdir}"
