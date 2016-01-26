@@ -17,11 +17,9 @@ options=('!strip')
 install=${pkgname}.install
 
 source=("x-markdown.xml")
-source_i686=("https://bitbucket.org/rhiokim/haroopad-download/downloads/${pkgname}-v${pkgver}-ia32.deb")
 source_x86_64=("https://bitbucket.org/rhiokim/haroopad-download/downloads/${pkgname}-v${pkgver}-x64.deb")
 
 sha256sums=('8261b526007db35c8691b3b6bf79cf40639a5e53fa81f1dd1fa4ea1cf5c440dd')
-sha256sums_i686=('bc8a162fbaa1f43e6b6f6a29b1be35df7eb87cf3988f14f4aaa1ecbb035f8ec6')
 sha256sums_x86_64=('ff04f500d6809491d1154bccc8c1ee1f02139a845290774d49ddd6f4c042832a')
 
 build() {
